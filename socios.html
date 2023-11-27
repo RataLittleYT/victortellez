@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dev:RataLife</dev></title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/icon.ico" type="image/ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick-theme.css"/>
+</head>
+<body onclick="PlayAudio()">
+    <section class="main fadeIn">
+        <div class="nav">
+            <div class="logo">
+                <a href='/'><img src="img/cute-rat-face-isolated-png.webp" alt=""></a>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a class='smooth-scroll' href='index.html'>Volver</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+            <nav class="menuppal">
+                <ul>
+                    <li><a class='smooth-scroll' href='index.html'>Volver</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="sellers despc">
+            <div class="title">
+                <h1>¿Conoces <span>Al </span> programador?</h1>
+            </div>
+            <div class="descrip">
+                <p>El mejor programador de paginas | Páginas 100% profesionales</p>
+            </div>
+            <div class="forpc">
+                <div class="forpc__panel">
+                    <h2>Rata<span class="colors_text">Life</span></h2>
+                    <p>Programador con experiencia en:</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i>HTML</li>
+                        <li><i class="fas fa-check-circle"></i>CSS</li>
+                        <li><i class="fas fa-check-circle"></i>JavaScript</li>
+                        <li><i class="fas fa-check-circle"></i>Phyton</li>
+                        <li><i class="fas fa-check-circle"></i>C, C#, C++</li>
+                    </ul>
+                </div>
+                <div class="forpc__images">
+                    <div class="equipo__images">
+                        <div class="equipo__card">
+                            <div class="card__image--modifiquer">
+                                <img src="img/Screenshot (304).png" alt="foto_panel">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="forpc forpc--modifiquer">
+                <div class="forpc__panel forpc__panel--modifiquer">
+                    <h2>Programador <span class="colors_text">100%</span> Legal</h2>
+                    <p>Programador con 12 años de experiencia<br>Venta de hacks para:</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i>Free Fire</li>
+                        <li><i class="fas fa-check-circle"></i> Fortnite.</li>
+                        <li><i class="fas fa-check-circle"></i> Valorant</li>
+                        <li><i class="fas fa-check-circle"></i> Farlight</li>
+                        <li><i class="fas fa-check-circle"></i>Minecraft</li>
+                        <li><i class="fas fa-check-circle"></i>  Roblox</li>
+                        <li><i class="fas fa-check-circle"></i> Warzone</li>
+                    </ul>
+                </div>
+                <div class="forpc__images">
+                    <div class="equipo__images">
+                        <div class="equipo__card">
+                            <div class="card__image--modifiquer">
+                                <img src="img/Capture.PNG" alt="foto_panel">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricepanel">
+                <div class="botton_compra">
+                    <a class='btn__button' href='https://wa.me/2441373011'>WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="by">
+                <p>&copy; 2023 Ṛäẗ4Ḷïḟë</p>
+            </div>
+        </footer>
+        <div class="te">
+            <audio id="musica" loop>
+                <source src="music/music.ogg" type="audio/ogg">
+            </audio>
+        </div>
+    </section>
+    <div id="particles-js"></div>
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/particlesjs-config.json"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+
+        function PlayAudio() {
+            document.getElementById("musica").play();
+        }
+
+        window.onload = function() {
+            document.getElementById("musica").play();
+        }
+
+        const audioElement = document.getElementById("musica");
+
+        audioElement.volume = 0.1;
+      </script>
+</body>
+</html>
